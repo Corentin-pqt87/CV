@@ -4,25 +4,34 @@
     src: url(../font/Raleway-VariableFont_wght.woff);
     src: url(../font/Raleway-VariableFont_wght.ttf) format("truetype");
 }
+body div{
+    width: 1160px;
+    margin: 0 auto;
+    background-color: #EEF1F2;
+}
 header{
     display: flex;
-    background-color: red;
+    background-color: #17ABB3;
+    height: 150px;
 }
 div.titre{
     margin: 0 auto;
+    background-color: #17ABB3;
+    justify-items: center;
 }
 
-img.pp{
-    
-    height: 80px;
-    width: 80px;
-    border: solid white 5px;
-    border-radius: 50%;
-    
-}
+
 div.pp{
     background-color: #17ABB3;
-    margin: auto 120px;
+    width: 400px;
+    display: flex;
+}
+img.pp{
+    height: 90px;
+    width: 90px;
+    border: solid white 5px;
+    border-radius: 50%;   
+    margin: auto; 
 }
 
 footer{
