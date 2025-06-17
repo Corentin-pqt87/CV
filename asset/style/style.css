@@ -40,11 +40,22 @@ footer{
     background-color: #17ABB3;
     color: white;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+footer div{
+    background-color: #17ABB3;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    
 }
 img.footer{
     height: 2%;
     width: 2%;
     /*margin: 0 auto;*/
+    margin: 0 15px;
 }
 img.footer #linkedin{
     margin-left: auto auto;
