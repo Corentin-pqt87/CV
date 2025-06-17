@@ -7,11 +7,12 @@
 body div{
     width: 1160px;
     margin: 0 auto;
-    background-color: #EEF1F2;
+    background-color: #F5F5F5;
 }
 header{
     display: flex;
     background-color: #17ABB3;
+    color: white;
     height: 150px;
 }
 div.titre{
@@ -36,11 +37,23 @@ img.pp{
 
 footer{
     display: flex;
+    background-color: #17ABB3;
+    color: white;
+    align-items: center;
 }
 img.footer{
     height: 2%;
     width: 2%;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
+}
+img.footer #linkedin{
+    margin-left: auto auto;
+}
+img.footer #github{
+    margin: 30;
+}
+img.footer #instagram{
+    margin-right: auto;
 }
 
 main{
@@ -51,4 +64,10 @@ h1, h2{
 }
 p, a{
     font-family: "Raleway";
+}
+div.gauche{
+    background-color: #EEF1F2;
+}
+div.droit{
+    background-color: white;
 }
