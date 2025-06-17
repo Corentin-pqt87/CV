@@ -1,9 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@font-face {
+    font-family: "Raleway";
+    src: url(../font/Raleway-VariableFont_wght.woff);
+    src: url(../font/Raleway-VariableFont_wght.ttf) format("truetype");
+}
+header{
+    display: flex;
+    background-color: red;
+}
+div.titre{
+    margin: 0 auto;
+}
+
+img.pp{
+    
+    height: 80px;
+    width: 80px;
+    border: solid white 5px;
+    border-radius: 50%;
+    
+}
+div.pp{
+    background-color: #17ABB3;
+    margin: auto 120px;
+}
+
+footer{
+    display: flex;
+}
 img.footer{
     height: 2%;
     width: 2%;
+    margin: 0 auto;
 }
-img.pp{
-    height: 8%;
-    width: 8%;
-    border-radius: 50%;
+
+main{
+    display: flex;
+}
+h1, h2{
+    font-family: "Lato";
+}
+p, a{
+    font-family: "Raleway";
 }
