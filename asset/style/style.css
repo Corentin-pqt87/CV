@@ -9,19 +9,35 @@ body div{
     margin: 0 auto;
     background-color: #F5F5F5;
 }
+
+/*=========================================     < HEADER >     =========================================*/
+
 header{
     display: flex;
     background-color: #17ABB3;
     color: white;
-    height: 150px;
+    height: 200px;
 }
 div.titre{
     margin: 0 auto;
     background-color: #17ABB3;
     justify-items: center;
 }
-
-
+p.job{
+    font-weight: bold;
+}
+div.contact{
+    background-color: #17ABB3;
+    display: flex;
+    width: 200px;
+}
+div.contact ul{
+    margin: 0;
+}
+div.contact ul.contact{
+    padding: 0px;
+    padding-left: 20px;
+}
 div.pp{
     background-color: #17ABB3;
     width: 400px;
@@ -35,6 +51,9 @@ img.pp{
     margin: auto; 
 }
 
+/*=========================================     </ HEADER >     =========================================*/
+
+/*=========================================     < FOOTER >     =========================================*/
 footer{
     display: flex;
     background-color: #17ABB3;
@@ -66,12 +85,17 @@ img.footer #github{
 img.footer #instagram{
     margin-right: auto;
 }
+/*=========================================     </ FOOTER >     =========================================*/
 
+/*=========================================     < MAIN >     =========================================*/
 main{
     display: flex;
 }
 h1, h2{
     font-family: "Lato";
+}
+h2{
+    color: #17ABB3;
 }
 p, a{
     font-family: "Raleway";
@@ -82,3 +106,4 @@ div.gauche{
 div.droit{
     background-color: white;
 }
+/*=========================================     </ MAIN >     =========================================*/
