@@ -166,5 +166,12 @@ div.droite{
     width: 820px;
     padding: 20px;
 }
+div.formation div{
+    display: flex;
+    width: 800px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 
 /*=========================================     </ MAIN >     =========================================*/
