@@ -114,6 +114,25 @@ p, a{
 }
 div.gauche{
     background-color: #EEF1F2;
+    width: 297.438px;
+}
+div.competance , div.langue{
+    background-color: #EEF1F2;
+    width: 297.438px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+div.competance div , div.langue div{
+    background-color: #EEF1F2;
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    margin-left: 0 ;
+}
+
+#blue{
+    color: #17ABB3;
 }
 div.droit{
     background-color: white;
