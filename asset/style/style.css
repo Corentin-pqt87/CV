@@ -29,14 +29,26 @@ p.job{
 div.contact{
     background-color: #17ABB3;
     display: flex;
-    width: 200px;
+    width: 350px;
+    padding-left: 100px;
 }
 div.contact ul{
     margin: 0;
+    list-style: none;
+}
+div.contact ul li img , div.contact ul.contact li img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+div.contact ul li a , div.contact ul.contact li a{
+    color: white;
+    text-decoration: none;
 }
 div.contact ul.contact{
     padding: 0px;
-    padding-left: 20px;
+    padding-left: 0px;
 }
 div.pp{
     background-color: #17ABB3;
