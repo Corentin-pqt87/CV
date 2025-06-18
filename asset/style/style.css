@@ -4,7 +4,10 @@
     src: url(../font/Raleway-VariableFont_wght.woff);
     src: url(../font/Raleway-VariableFont_wght.ttf) format("truetype");
 }
-body div{
+body{
+    background-color: #F5F5F5;
+}
+div.main{
     width: 1160px;
     margin: 0 auto;
     background-color: #F5F5F5;
@@ -52,7 +55,7 @@ div.contact ul.contact{
 }
 div.pp{
     background-color: #17ABB3;
-    width: 400px;
+    width: 300px;
     display: flex;
 }
 img.pp{
@@ -100,7 +103,9 @@ img.footer #instagram{
 /*=========================================     </ FOOTER >     =========================================*/
 
 /*=========================================     < MAIN >     =========================================*/
+
 main{
+    width: 862.562px;
     display: flex;
 }
 h1, h2{
@@ -108,17 +113,19 @@ h1, h2{
 }
 h2{
     color: #17ABB3;
+    width: 862.562px;
 }
 p, a , li{
     font-family: "Raleway";
 }
 div.gauche{
     background-color: #EEF1F2;
-    width: 297.438px;
+    width: 300px;
+    
 }
 div.competance , div.langue{
     background-color: #EEF1F2;
-    width: 297.438px;
+    width: 280px;
     margin-left: 20px;
     display: flex;
     flex-direction: column;
@@ -132,7 +139,7 @@ div.competance div , div.langue div{
 }
 div.centre_int , div.qualite{
     margin-left: 20px;
-    width: 300px;
+    width: 280px;
     background-color: #EEF1F2;
 }
 div.centre_int ul , div.qualite ul{
@@ -154,7 +161,10 @@ div.centre_int ul li::before , div.qualite ul li::before{
 #blue{
     color: #17ABB3;
 }
-div.droit{
+div.droite{
     background-color: white;
+    width: 820px;
+    padding: 20px;
 }
+
 /*=========================================     </ MAIN >     =========================================*/
