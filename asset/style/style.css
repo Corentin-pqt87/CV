@@ -109,7 +109,7 @@ h1, h2{
 h2{
     color: #17ABB3;
 }
-p, a{
+p, a , li{
     font-family: "Raleway";
 }
 div.gauche{
@@ -130,7 +130,27 @@ div.competance div , div.langue div{
     justify-content: space-between;
     margin-left: 0 ;
 }
-
+div.centre_int , div.qualite{
+    margin-left: 20px;
+    width: 300px;
+    background-color: #EEF1F2;
+}
+div.centre_int ul , div.qualite ul{
+    background-color: #EEF1F2;
+    list-style: none;
+    padding: 1.2em;
+    
+}
+div.centre_int ul li , div.qualite ul li{
+    position: relative;
+}
+div.centre_int ul li::before , div.qualite ul li::before{
+    content: "■";
+    position: absolute;
+    left: -1.2em;
+    color: #17ABB3;
+    font-size:1.2em;
+}
 #blue{
     color: #17ABB3;
 }
