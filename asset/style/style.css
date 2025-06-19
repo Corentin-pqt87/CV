@@ -59,8 +59,8 @@ div.pp{
     display: flex;
 }
 img.pp{
-    height: 90px;
-    width: 90px;
+    height: 125px;
+    width: 125px;
     border: solid white 5px;
     border-radius: 50%;   
     margin: auto; 
