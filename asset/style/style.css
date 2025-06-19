@@ -53,12 +53,16 @@ div.contact ul.contact{
     padding: 0px;
     padding-left: 0px;
 }
-div.pp{
+div.pp {
     background-color: #17ABB3;
     width: 300px;
     display: flex;
 }
-img.pp{
+a.pp{
+    margin: auto;
+    border-radius: 50%;  
+}
+a.pp img{
     height: 125px;
     width: 125px;
     border: solid white 5px;
@@ -181,5 +185,13 @@ div.formation div , div.stage div , div.experience div{
 div.formation div:hover , div.stage div:hover , div.experience:hover{
     background-color: #E3E3E3;
     border-left: #17ABB3 solid 5px;
+}
+
+a.pp:hover{
+    cursor: zoom-in;
+}
+
+footer div img:hover{
+    opacity: 60%;
 }
 /*=========================================     < DYNAMISME >     =========================================*/
