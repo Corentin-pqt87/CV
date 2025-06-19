@@ -114,6 +114,7 @@ h1, h2{
 h2{
     color: #17ABB3;
     width: 862.562px;
+    padding-left: 20px;
 }
 p, a , li{
     font-family: "Raleway";
@@ -164,14 +165,21 @@ div.centre_int ul li::before , div.qualite ul li::before{
 div.droite{
     background-color: white;
     width: 820px;
-    padding: 20px;
+    
 }
-div.formation div , div.stage div{
+div.formation div , div.stage div , div.experience div{
     display: flex;
     width: 800px;
     flex-direction: row;
     justify-content: space-between;
+    padding-left: 20px;
 }
 
 
 /*=========================================     </ MAIN >     =========================================*/
+/*=========================================     < DYNAMISME >     =========================================*/
+div.formation div:hover , div.stage div:hover , div.experience:hover{
+    background-color: #E3E3E3;
+    border-left: #17ABB3 solid 5px;
+}
+/*=========================================     < DYNAMISME >     =========================================*/
