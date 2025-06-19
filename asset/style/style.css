@@ -177,9 +177,12 @@ div.formation div , div.stage div , div.experience div{
     flex-direction: row;
     justify-content: space-between;
     padding-left: 20px;
-    
 }
-
+p.profil{
+    margin-left: 20px;
+    width: 780px;
+    text-indent: 40px;
+}
 
 /*=========================================     </ MAIN >     =========================================*/
 /*=========================================     < DYNAMISME >     =========================================*/
