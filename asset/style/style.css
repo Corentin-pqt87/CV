@@ -173,10 +173,11 @@ div.droite{
 }
 div.formation div , div.stage div , div.experience div{
     display: flex;
-    width: 800px;
+    width: 780px;
     flex-direction: row;
     justify-content: space-between;
     padding-left: 20px;
+    
 }
 
 
