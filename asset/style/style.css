@@ -187,7 +187,7 @@ p.profil{
 /*=========================================     </ MAIN >     =========================================*/
 /*=========================================     < DYNAMISME >     =========================================*/
 div.formation div:hover , div.stage div:hover , div.experience:hover{
-    background-color: #E3E3E3;
+    background-color: #EEF1F2;
     border-left: #17ABB3 solid 5px;
 }
 
