@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@font-face {
+    font-family: "Raleway";
+    src: url(../font/Raleway-VariableFont_wght.woff);
+    src: url(../font/Raleway-VariableFont_wght.ttf) format("truetype");
+}
+body{
+    background-color: #F5F5F5;
+}
+div.main{
+    width: 1160px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+}
+
+/*=========================================     < HEADER >     =========================================*/
+
+header{
+    display: flex;
+    background-color: #17ABB3;
+    color: white;
+    height: 200px;
+}
+div.titre{
+    margin: 0 auto;
+    background-color: #17ABB3;
+    justify-items: center;
+}
+p.job{
+    font-weight: bold;
+}
+div.contact{
+    background-color: #17ABB3;
+    display: flex;
+    width: 350px;
+    padding-left: 100px;
+}
+div.contact ul{
+    margin: 0;
+    list-style: none;
+}
+div.contact ul li img , div.contact ul.contact li img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+div.contact ul li a , div.contact ul.contact li a{
+    color: white;
+    text-decoration: none;
+}
+div.contact ul.contact{
+    padding: 0px;
+    padding-left: 0px;
+}
+div.pp {
+    background-color: #17ABB3;
+    width: 300px;
+    display: flex;
+}
+a.pp{
+    margin: auto;
+    border-radius: 50%;  
+}
+a.pp img{
+    height: 125px;
+    width: 125px;
+    border: solid white 5px;
+    border-radius: 50%;   
+    margin: auto; 
+}
+
+/*=========================================     </ HEADER >     =========================================*/
+
+/*=========================================     < FOOTER >     =========================================*/
+footer{
+    display: flex;
+    background-color: #17ABB3;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+footer div{
+    background-color: #17ABB3;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    
+}
+img.footer{
+    height: 2%;
+    width: 2%;
+    /*margin: 0 auto;*/
+    margin: 0 15px;
+}
+img.footer #linkedin{
+    margin-left: auto auto;
+}
+img.footer #github{
+    margin: 30;
+}
+img.footer #instagram{
+    margin-right: auto;
+}
+/*=========================================     </ FOOTER >     =========================================*/
+
+/*=========================================     < MAIN >     =========================================*/
+
+main{
+    width: 862.562px;
+    display: flex;
+}
+h1, h2{
+    font-family: "Lato";
+}
+h2{
+    color: #17ABB3;
+    width: 862.562px;
+    padding-left: 20px;
+}
+p, a , li{
+    font-family: "Raleway";
+}
+div.gauche{
+    background-color: #EEF1F2;
+    width: 300px;
+    
+}
+div.competance , div.langue{
+    background-color: #EEF1F2;
+    width: 280px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+div.competance div , div.langue div{
+    background-color: #EEF1F2;
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    margin-left: 0 ;
+}
+div.centre_int , div.qualite{
+    margin-left: 20px;
+    width: 280px;
+    background-color: #EEF1F2;
+}
+div.centre_int ul , div.qualite ul{
+    background-color: #EEF1F2;
+    list-style: none;
+    padding: 1.2em;
+    
+}
+div.centre_int ul li , div.qualite ul li{
+    position: relative;
+}
+div.centre_int ul li::before , div.qualite ul li::before{
+    content: "■";
+    position: absolute;
+    left: -1.2em;
+    color: #17ABB3;
+    font-size:1.2em;
+}
+#blue{
+    color: #17ABB3;
+}
+div.droite{
+    background-color: white;
+    width: 860px;
+    
+}
+div.formation div , div.stage div , div.experience div{
+    display: flex;
+    width: 780px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+p.profil{
+    margin-left: 20px;
+    width: 780px;
+    text-indent: 40px;
+}
+
+/*=========================================     </ MAIN >     =========================================*/
+/*=========================================     < DYNAMISME >     =========================================*/
+div.formation div:hover , div.stage div:hover , div.experience:hover{
+    background-color: #EEF1F2;
+    border-left: #17ABB3 solid 5px;
+}
+
+a.pp:hover{
+    cursor: zoom-in;
+}
+
+footer div img:hover{
+    opacity: 60%;
+}
+/*=========================================     < DYNAMISME >     =========================================*/
