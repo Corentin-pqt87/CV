@@ -10,8 +10,6 @@
 }
 
 /*  HEADER  */
-
-
 header{
     position: fixed;
     top: 0;
@@ -36,11 +34,7 @@ body{
     background-color: var(--fond);
     color: var(--txt-main);
 }
-.contenue{
-    margin-left: 35%;
-    /*margin-top: 56px;*/
-    padding: 20px;
-}
+
 
 h4{
     color: var(--h4)
@@ -49,3 +43,7 @@ h5{
     color: var(--h5);
 }
 
+.block{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

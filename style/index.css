@@ -8,6 +8,13 @@
     height: calc(100vh - 56px);
     overflow-y: auto;
 }
+
+.contenue{
+    margin-left: 280px;
+    padding: 20px;
+}
+
+
 .nav-pills .nav-link.active {
     background-color: var(--nav-color);
     /*color: white;*/
@@ -25,4 +32,9 @@
     .contenue {
         margin-left: 20px;
     }
+}
+div.formation div:hover{
+    background-color: #06668C;
+    border-left: #cce90d solid 5px;
+
 }
