@@ -1,3 +1,6 @@
 form{
     display: flexbox;
 }
+.contact{
+    padding-top: 20px;
+}
