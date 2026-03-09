@@ -54,3 +54,22 @@ div.formation div:hover{
     background-color: var(--secondary-color);
     border-left: var(--h4) solid 5px;
 }
+
+/*  photo de profil */
+.pp {
+    /*box-shadow : 0 0 30px var(--h4),
+	15px 0 30px var(--primary-color),
+	-15px 0 30px var(--secondary-color);*/
+    height: 150px;
+    width: 150px;
+    display: flex;
+    margin: auto;
+    border: solid var(--h5) 5px;
+    border-radius: 50%;  
+}
+.pp:hover{
+    box-shadow : 0 0 30px var(--h4),
+	15px 0 30px var(--primary-color),
+	-15px 0 30px var(--secondary-color);
+}
+
