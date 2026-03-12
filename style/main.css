@@ -62,7 +62,7 @@ footer{
     background-color: var(--secondary-color);
     color: var(--txt-main);
     padding-top: 20px;
-    padding-left: 250px;
+    /*padding-left: 250px;*/
 }
 @media (max-width: 700px) {
     footer{

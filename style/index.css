@@ -12,12 +12,13 @@
 /*  DIV GAUCHE  */
 .navigation {
     background-color: var(--secondary-color);
-    position: fixed;
+    position: sticky;
     top: 56px; /* hauteur du header */
     padding-top: 20px;
-    left: 0;
-    width: 250px;
+    /*left: 0;*/
+    width: 20%;
     height: calc(100vh - 56px);
+    /*height: calc(100vh - 0px);*/
     overflow-y: auto;
 }
 
@@ -27,7 +28,6 @@
 }
 
 .contenue{
-    margin-left: 30%;
     padding: 20px;
 }
 
@@ -41,7 +41,7 @@
 }
 
 /*  RESPONSIVE  */
-@media (max-width: 700px) {
+@media (max-width: 770px) {
     .navigation {
         display: none;
     }
