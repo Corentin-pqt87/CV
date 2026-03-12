@@ -17,6 +17,7 @@ header{
     width: 100%;
     height: 56px;
     background-color: var(--primary-color);
+    z-index: 1000;
 }
 .custom-navbar{
     background-color: var(--primary-color);
