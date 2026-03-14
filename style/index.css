@@ -13,8 +13,8 @@
 .navigation {
     background-color: var(--secondary-color);
     position: sticky;
-    top: 56px; /* hauteur du header */
-    padding-top: 20px;
+    top: 56px; /* */
+    /*padding-top: 20px;*/
     /*left: 0;*/
     width: 20%;
     height: calc(100vh - 56px);
