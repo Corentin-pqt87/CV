@@ -30,6 +30,7 @@
     
     <!--            MAIN            -->
     <main class="flex-grow-1 container-fluid">
+
         <!--MENU DE NAVIGATION GAUCHE-->
         <div class="row">
             <div class="col-12 col-md-4 navigation">
@@ -43,16 +44,19 @@
                             <a class="nav-link ms-3 my-1" href="#item-1-4">Centres d'intérêts</a>
                         </nav>
                         <hr>
-                        <a class="nav-link" href="#item-2">Formations</a>
+                        <a class="nav-link" href="#item-2">Diplômes</a>
                         <nav>
                             <a class="nav-link ms-3 my-1" href="#item-2-1">Baccalauréat</a>
-                            <a class="nav-link ms-3 my-1" href="#item-2-2">Licence informatique</a>
-                            <a class="nav-link ms-3 my-1" href="#item-2-3">Développeur Web</a>
+                        </nav>
+                        <a class="nav-link" href="#item-3">Formations</a>
+                        <nav>
+                            <a class="nav-link ms-3 my-1" href="#item-3-1">Licence informatique</a>
+                            <a class="nav-link ms-3 my-1" href="#item-3-2">Développeur Web</a>
                         </nav>
                         <hr>
-                        <a class="nav-link" href="#item-3">Stages et Expérience professionnelle</a>
+                        <a class="nav-link" href="#item-4">Stages et Expérience professionnelle</a>
                         <nav class="nav nav-pills flex-column">
-                            <a class="nav-link ms-3 my-1" href="#item-3-1">Stages</a>
+                            <a class="nav-link ms-3 my-1" href="#item-4-1">Stages</a>
                         </nav>
                     </nav>
                 </nav>
@@ -65,22 +69,31 @@
             <div class="col-12 col-md-8 contenue">
                 <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
                     <div id="item-1" class="block">
-                        <h4>Profil</h4>
+                        <h4>PAQUET Corentin</h4>
                         <img src="./asset/img/photo.png" class="pp" alt="ma photo">
                         <p>
-                            Étudiant en informatique passionné par le développement web.
+                            Étudiant en informatique passionné par le développement web et d'applications.
                             <br> Curieux, touche à tout et rigoureux, je suis en constante évolution pour maîtriser les
                             technologies front-end et back-end.
                         </p>
                     </div>
                     <div id="item-1-1" class="block">
                         <h5>Compétences</h5>
-                        <p>
-                            Des compétences dans les languages HTML, CSS (SCSS avec sass compris), JS (jsx pour REACT.JS), SQL (SQLite).
-                        </p>
-                        <p>
-                            Je sais utliser les outils tels que Wordpress, postman, figma ou encore krita (liste non exhaustive).
-                        </p>
+                        <h6>Développement</h6>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS (SCSS avec sass compris)</li>
+                            <li>JS (jsx pour REACT.JS)</li>
+                            <li>SQL (SQLite)</li>
+                        </ul>
+                        <h6>Applications</h6>
+                        <ul>
+                            <li>Wordpress</li>
+                            <li>postman</li>
+                            <li>figma</li>
+                            <li>krita</li>
+                            <li>...</li>
+                        </ul>
                         <p>
                             J'utilise souvent git dans mes projets personnels.
                         </p>
@@ -115,8 +128,9 @@
                     <hr>
 
                     <div id="item-2">
-                        <h4>Formations</h4>
+                        <h4>Diplômes</h4>
                     </div>
+                    
                     <div class="formation">
                         <div id="item-2-1">
                             <div class="block">
@@ -125,17 +139,25 @@
                                 <i>2023</i>
                             </div>
                         </div>
-                        <div id="item-2-2">
+                    </div>
+
+                    <hr>
+
+                    <div id="item-2">
+                        <h4>Formations</h4>
+                    </div>
+                    <div class="formation">
+                        <div id="item-3-1">
                             <div class="block">
                                 <h5>Licence informatique</h5>
                                 <p>faculté des sciences et techniques</p>
                                 <i>L1 académique en cours</i>
                             </div>
                         </div>
-                        <div id="item-2-3">
+                        <div id="item-3-2">
                             <div class="block">
                                 <h5>Développeur Web</h5>
-                                <p><b>C</b>entre <b>E</b>uropeen de <b>F</b>ormation</p>
+                                <p><a href="https://www.centre-europeen-formation.fr/landing/dev-web-formation/?code=1655&utm_source=google&utm_medium=cpc&utm_campaign=DEVWEB-Search&gad_source=1&gad_campaignid=19656146637&gbraid=0AAAAAD-SFizN4kcuot2bIQEG3MnmAqiT9&gclid=CjwKCAjwjtTNBhB0EiwAuswYhgQ-UAA505QWlAabHfwLOwp3Y3dcqcNf_B7ftavAvrXfe-Us96a5XxoCejIQAvD_BwE"><b>C</b>entre <b>E</b>uropeen de <b>F</b>ormation</a></p>
                                 <i>En cours</i>
                             </div>
                         </div>
@@ -143,20 +165,21 @@
 
                     <hr>
 
-                    <div id="item-3" class="block">
+                    <div id="item-4" class="block">
                         <h4>Stages et Expérience professionnelle</h4>
-                        <p>Je suis impatient de pouvoir rensegner cette rubrique.</p>
                     </div>
-                    <div id="item-3-1" class="block">
+                    <div id="item-4-1" class="block">
                         <h5>Stages</h5>
                         <div class="block">
-                            <a href="pages/lucem.html">
+                            <a href="https://www.lucem-conseil.fr/digital-factory/">
                                 <h6>Lucem Digital Factory</h6>
                             </a>
                             <p>Développeur d'application web de DRH</p>
                             <i>2019</i>
                         </div>
+                        <p>Je suis impatient de pouvoir compléter cette rubrique.</p>
                     </div>
+                    
                 </div>
             </div>
         </div>
@@ -168,7 +191,10 @@
                 <h5>Information</h5>
                 <p>Site fait par PAQUET Corentin</p>
                 <p>héberge sur <a href="https://github.com/">GitHub</a></p>
+            </div>
+            <div class="col">
                 <p>mis en ligne par <a href="https://vercel.com/">Vercel</a></p>
+                <p>VFX par <a href="./asset/pdf/LICENSE.pdf">JDSherbert</a></p>
             </div>
             <div class="col">
                 <h5>Contact</h5>

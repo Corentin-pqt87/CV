@@ -2,11 +2,13 @@
     --primary-color: #3F7343;
     --secondary-color :#06668C;
     --nav-color : #427AA1;
+    --footer : #305d7d;
     --nav-txt-color : #EBF2FA;
     --fond : #427AA1;
     --txt-main : #EBF2FA;
     --h4 :#cce90d;
     --h5: #afc522;
+    --a:#22c59f;
 }
 
 /*  HEADER  */
@@ -17,6 +19,7 @@ header{
     width: 100%;
     height: 56px;
     background-color: var(--primary-color);
+    
     z-index: 1000;
 }
 .custom-navbar{
@@ -37,7 +40,7 @@ body{
 }
 
 a{
-    color: var(--h4);
+    color: var(--a);
 }
 
 h4{
@@ -59,15 +62,16 @@ h5{
 
 /*  FOOTER  */
 footer{
-    background-color: var(--secondary-color);
+    background-color: var(--footer);
     color: var(--txt-main);
     padding-top: 20px;
+    width: 100%;
     /*padding-left: 250px;*/
 }
 @media (max-width: 700px) {
-    footer{
+    /*footer{
         padding-left: 5px;
-    }
+    }*/
 }
 @media (max-width: 500px){
 
