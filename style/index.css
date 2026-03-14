@@ -46,9 +46,9 @@
         display: none;
     }
 
-    .contenue {
-        margin-left: 20%;
-    }
+    /*.contenue {
+        margin-left: 10%;
+    }*/
 }
 div.formation div:hover{
     background-color: var(--secondary-color);
